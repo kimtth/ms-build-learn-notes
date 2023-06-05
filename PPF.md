@@ -17,8 +17,6 @@
 <!-- TOC end -->
 
 # Contents: Power Platform Developer
-=======
-# Part 4 - Power Platform Developer
 
 1. [Get started with Power Apps canvas apps](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
 1. [Customize a canvas app in Power Apps](https://learn.microsoft.com/en-us/training/modules/customize-apps-in-powerapps/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)

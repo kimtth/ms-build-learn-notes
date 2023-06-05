@@ -8,7 +8,6 @@
   * [Types of machine learning](#types-of-machine-learning)
   * [Azure Machine Learning](#azure-machine-learning)
   * [Computer vision ](#computer-vision)
-<<<<<<< HEAD
   * [Azure Bot Service](#azure-bot-service)
   * [Analyze text with the Language service](#analyze-text-with-the-language-service)
   * [Introduction to Anomaly Detector](#introduction-to-anomaly-detector)
@@ -27,8 +26,6 @@
   * [Monitor Cognitive Services](#monitor-cognitive-services)
   * [Deploy cognitive services in containers](#deploy-cognitive-services-in-containers)
   * [Addressing future labor and workplace needs](#addressing-future-labor-and-workplace-needs)
-=======
->>>>>>> 7cb947d9812c1b9055c20740c4e59ce98d843fc4
 
 <!-- TOC end -->
 
@@ -138,11 +135,7 @@ There are two general approaches to machine learning, supervised and unsupervise
 
         The confusion matrix is a tool used to assess the quality of a classification model's predictions. It compares predicted labels against actual labels.
 
-<<<<<<< HEAD
         <img src="notes/confusion-matrix-terms.png" alt="package" width="350"/>
-=======
-        <img src="notes/confusion-matrix-terms.png" alt="package" width="450"/>
->>>>>>> 7cb947d9812c1b9055c20740c4e59ce98d843fc4
 
         - True Positive: The model predicts the patient has diabetes, and the patient does actually have diabetes.
 
@@ -173,11 +166,7 @@ There are two general approaches to machine learning, supervised and unsupervise
         
         - Plotting these metrics against each other for every possible threshold value between 0 and 1 results in a curve, known as the **ROC curve (ROC stands for receiver operating characteristic, but most data scientists just call it a ROC curve).** In an ideal model, the curve would go all the way up the left side and across the top, so that it covers the full area of the chart. The larger the area under the curve, of AUC metric, (which can be any value from 0 to 1), the better the model is performing. 
 
-<<<<<<< HEAD
             <img src="notes/roc-curve-example.png" alt="package" width="300"/>
-=======
-            <img src="notes/roc-curve-example.png" alt="package" width="350"/>
->>>>>>> 7cb947d9812c1b9055c20740c4e59ce98d843fc4
 
 - Clustering is a form of machine learning that is used to group similar items into clusters based on their features. For example, a researcher might take measurements of penguins, and group them based on similarities in their proportions.
 
@@ -206,7 +195,6 @@ There are two general approaches to machine learning, supervised and unsupervise
 
     1. Cognitive Services: A general cognitive services resource that includes Computer Vision along with many other cognitive services; such as Text Analytics, Translator Text, and others. Use this resource type if you plan to use multiple cognitive services and want to simplify administration and development.
 
-<<<<<<< HEAD
 - The Computer Vision service provides many capabilities that you can use to analyze images, including generating a descriptive caption, extracting relevant tags, identifying objects, determining image type and metadata, detecting human faces, known brands, and celebrities, and others.
 
 ## Azure Bot Service
@@ -490,6 +478,3 @@ What's the weather going to be like today?
 
 <img src="notes/future-ai.jpg" alt="package" width="350"/>
 
-=======
-- The Computer Vision service provides many capabilities that you can use to analyze images, including generating a descriptive caption, extracting relevant tags, identifying objects, determining image type and metadata, detecting human faces, known brands, and celebrities, and others.
->>>>>>> 7cb947d9812c1b9055c20740c4e59ce98d843fc4
