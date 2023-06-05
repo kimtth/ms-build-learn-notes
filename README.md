@@ -9,17 +9,13 @@
 
 [Microsoft Build: Cloud Development Challenge](Azure.md) - 36 Chapters
 
-  <img src="notes/cloud-adoption-framework.png" alt="-" width="400"/>
+  <img src="notes/regions-small-be724495.png" alt="-" width="400"/>
 
 ## Part 2 - .NET
 
 [Microsoft Build: .NET Challenge](dotNET.md) - 33 Chapters
 
-  <img src="notes/eshop-architecture.png" alt="-" width="300"/>
-
----
-
-@WIP
+  <img src="notes/dot-net.jpg" alt="-" width="400"/>
 
 ## Part 3 - Azure AI
 
@@ -27,11 +23,15 @@
 
   <img src="notes/microsoft-ai-portfolio-graphic.png" alt="-" width="400"/>
 
-@TODO
-
 ## Part 4 - Power Platform Developer
 
 [Microsoft Build: Power Platform Developer Challenge](PPF.md) - 22 Chapters
+
+  <img src="notes/platform.png" alt="-" width="400"/>
+
+---
+
+@TODO
 
 ## Part 5 - DevOps
 
