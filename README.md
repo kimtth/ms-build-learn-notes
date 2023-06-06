@@ -37,6 +37,10 @@
 
 [Microsoft Build: DevOps Challenge](DevOps.md) - 51 Chapters
 
+  <img src="notes/azure-devops.png" alt="-" width="400"/>
+
 ## Part 6 - Microsoft 365 Developer
 
 [Microsoft Build: Microsoft 365 Developer Challenge](M365dev.md) - 20 Chapters
+
+  <img src="notes/m365.png" alt="-" width="400"/>
