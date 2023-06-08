@@ -1,15 +1,16 @@
-- Explore best practices for source control
+OWASP regularly publishes a set of Secure Coding Practices. Their guidelines currently cover advice in the following areas:
+    *       Input Validation
+    *       Output Encoding
+    *       Authentication and Password Management
+    *       Session Management
+    *       Access Control
+    *       Cryptographic Practices
+    *       Error Handling and Logging
+    *       Data Protection
+    *       Communication Security
+    *       System Configuration
+    *       Database Security
+    *       File Management
+    *       Memory Management
+    *       General Coding Practices
 
-1. Make small changes. In other words, commit early and commit often. Be careful not to commit any unfinished work that could break the build.
-1. Do not commit personal files. It could include application settings or SSH keys. Often personal files are committed accidentally but cause problems later when other team members work on the same code.
-1. Update often and right before pushing to avoid merge conflicts.
-1. Verify your code change before pushing it to a repository; ensure it compiles and tests are passing.
-1. Pay close attention to commit messages, as it will tell you why a change was made. Consider committing messages as a mini form of documentation for the change.
-1. Link code changes to work items. It will concretely link what was created to why it was created—or modified by providing traceability across requirements and code changes.
-1. No matter your background or preferences, be a team player and follow agreed conventions and workflows. Consistency is essential and helps ensure quality, making it easier for team members to pick up where you left off, review your code, debug, and so on.
-
-
-
-C:\Users\taehokim\Desktop\azure-openai-elastic-vector-langchain\notes\notes>cd docx2md
-
-C:\Users\taehokim\Desktop\azure-openai-elastic-vector-langchain\notes\notes\docx2md>docx2md.exe ..\toMarkdown.docx > md.txt
