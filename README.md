@@ -29,15 +29,13 @@
 
   <img src="notes/platform.png" alt="-" width="400"/>
 
----
-
-@TODO
-
 ## Part 5 - DevOps
 
 [Microsoft Build: DevOps Challenge](DevOps.md) - 51 Chapters
 
   <img src="notes/azure-devops.png" alt="-" width="400"/>
+
+---
 
 ## Part 6 - Microsoft 365 Developer
 
