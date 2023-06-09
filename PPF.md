@@ -18,29 +18,29 @@
 
 # Contents: Power Platform Developer
 
-1. [Get started with Power Apps canvas apps](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Customize a canvas app in Power Apps](https://learn.microsoft.com/en-us/training/modules/customize-apps-in-powerapps/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [How to build the UI in a canvas app in Power Apps](https://learn.microsoft.com/en-us/training/modules/how-to-build-ui-canvas-app/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Navigation in a canvas app in Power Apps](https://learn.microsoft.com/en-us/training/modules/navigation-canvas-app/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Manage apps in Power Apps](https://learn.microsoft.com/en-us/training/modules/manage-apps-in-powerapps/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Build a mobile-optimized app from Power Apps](https://learn.microsoft.com/en-us/training/modules/build-mobile-optimized/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Get started with Power Automate](https://learn.microsoft.com/en-us/training/modules/get-started-flows/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Build approval flows with Power Automate](https://learn.microsoft.com/en-us/training/modules/build-approval-flows/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Build flows to manage user information](https://learn.microsoft.com/en-us/training/modules/manage-user-information/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Power Automate's deep integration across multiple data sources](https://learn.microsoft.com/en-us/training/modules/multiple-data-sources/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Use the Admin center to manage environments and data policies in Power Automate](https://learn.microsoft.com/en-us/training/modules/administer-flows/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Use AI Builder in Power Automate](https://learn.microsoft.com/en-us/training/modules/ai-builder-power-automate/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Optimize your business process with process advisor](https://learn.microsoft.com/en-us/training/modules/business-process-optimization-process-advisor/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Work with Dataverse Web API](https://learn.microsoft.com/en-us/training/modules/common-data-service-web-api/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Integrate Dataverse Azure solutions](https://learn.microsoft.com/en-us/training/modules/integrate-common-data-service-azure-solutions/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Get started with Power Apps component framework](https://learn.microsoft.com/en-us/training/modules/get-started-component-framework/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Build a Power Apps component](https://learn.microsoft.com/en-us/training/modules/build-power-app-component/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Use advanced features with Power Apps component framework](https://learn.microsoft.com/en-us/training/modules/component-framework-advanced-topics/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [How to build your first model-driven app with Dataverse](https://learn.microsoft.com/en-us/training/modules/build-first-model-driven-app-dataverse/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Create tables in Dataverse](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps-common-data-service/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
-1. [Get started with model-driven apps in Power Apps](https://learn.microsoft.com/en-us/training/modules/get-started-with-model-driven-apps-in-powerapps/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
+1. [Get started with Power Apps canvas apps](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps)
+1. [Customize a canvas app in Power Apps](https://learn.microsoft.com/en-us/training/modules/customize-apps-in-powerapps)
+1. [How to build the UI in a canvas app in Power Apps](https://learn.microsoft.com/en-us/training/modules/how-to-build-ui-canvas-app)
+1. [Navigation in a canvas app in Power Apps](https://learn.microsoft.com/en-us/training/modules/navigation-canvas-app)
+1. [Manage apps in Power Apps](https://learn.microsoft.com/en-us/training/modules/manage-apps-in-powerapps)
+1. [Build a mobile-optimized app from Power Apps](https://learn.microsoft.com/en-us/training/modules/build-mobile-optimized)
+1. [Get started with Power Automate](https://learn.microsoft.com/en-us/training/modules/get-started-flows)
+1. [Build approval flows with Power Automate](https://learn.microsoft.com/en-us/training/modules/build-approval-flows)
+1. [Build flows to manage user information](https://learn.microsoft.com/en-us/training/modules/manage-user-information)
+1. [Power Automate's deep integration across multiple data sources](https://learn.microsoft.com/en-us/training/modules/multiple-data-sources)
+1. [Use the Admin center to manage environments and data policies in Power Automate](https://learn.microsoft.com/en-us/training/modules/administer-flows)
+1. [Use AI Builder in Power Automate](https://learn.microsoft.com/en-us/training/modules/ai-builder-power-automate)
+1. [Optimize your business process with process advisor](https://learn.microsoft.com/en-us/training/modules/business-process-optimization-process-advisor)
+1. [Work with Dataverse Web API](https://learn.microsoft.com/en-us/training/modules/common-data-service-web-api)
+1. [Integrate Dataverse Azure solutions](https://learn.microsoft.com/en-us/training/modules/integrate-common-data-service-azure-solutions)
+1. [Get started with Power Apps component framework](https://learn.microsoft.com/en-us/training/modules/get-started-component-framework)
+1. [Build a Power Apps component](https://learn.microsoft.com/en-us/training/modules/build-power-app-component)
+1. [Use advanced features with Power Apps component framework](https://learn.microsoft.com/en-us/training/modules/component-framework-advanced-topics)
+1. [How to build your first model-driven app with Dataverse](https://learn.microsoft.com/en-us/training/modules/build-first-model-driven-app-dataverse)
+1. [Create tables in Dataverse](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps-common-data-service)
+1. [Get started with model-driven apps in Power Apps](https://learn.microsoft.com/en-us/training/modules/get-started-with-model-driven-apps-in-powerapps)
 <<<<<<< HEAD
-1. [Configure forms, charts, and dashboards in model-driven apps](https://learn.microsoft.com/en-us/training/modules/configure-model-driven-apps-customer-engagement-apps/?WT.mc_id=cloudskillschallenge_69681a7d-f052-4034-bf05-19a6dcf1bbec&ns-enrollment-type=Collection&ns-enrollment-id=jkqrho17wm61)
+1. [Configure forms, charts, and dashboards in model-driven apps](https://learn.microsoft.com/en-us/training/modules/configure-model-driven-apps-customer-engagement-apps)
 
 ## Power Apps canvas apps
 
@@ -221,9 +221,17 @@
 |Connect supported Azure and third-party services by using a fully managed event-routing service with a publish-subscribe model that simplifies event-based app development.|[Event Grid](https://azure.microsoft.com/services/event-grid/)        |
 |Continuously ingest data in real time from up to hundreds of thousands of sources and stream a million events per second.                                                  |[Event Hubs](https://azure.microsoft.com/services/event-hubs/)        |
 
-- You will be using **Dataverse's Plug-in Registration Tool** to configure the publishing of your Dataverse data to your Service Bus. This tool is provided as part of Microsoft's Dataverse developer tooling, which is found at NuGet. 
-
     <img src="notes/unit5-image11.png" alt="package" width="250"/>
+
+- Publishing events from Dataverse to Azure
+
+    1. - You will be using **Dataverse's Plug-in Registration Tool** to configure the publishing of your Dataverse data to your Service Bus. This tool is provided as part of Microsoft's Dataverse developer tooling, which is found at NuGet. 
+
+    1. PPF > Settings > Advanced Settings and select the System Jobs view. : If `System Job` ran successfully, the Status Reason should be Succeeded. Because the integration step ran successfully, you can now verify that the account creation message has arrived in your Service Bus queue by going to the queue in the Azure portal. `e.g., Dataverse -> Service Bus`
+
+    1. Another method for publishing events from Microsoft Dataverse to an external service is to register webhooks. A webhook is an HTTP-based mechanism for publishing events to any Web API-based service of your choosing. This method allows you to write your own custom code that is hosted on external services as a point-to-point. `e.g., Webhook -> Azure Function`
+
+    1. Within the Plug-in Registration Tool, you can register a new webhook by selecting Register New Web Hook under the Register menu option.
 
 ## Power Apps component framework
 
