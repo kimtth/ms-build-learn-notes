@@ -5,6 +5,9 @@
 
 > [Skills Challenge Registration](https://www.microsoft.com/en-US/cloudskillschallenge/build/registration/2023)
 
+> Challenge Details
+> There are 8 challenges available. The challenge ends on June 20, 2023 at 4:00 PM (16:00) UTC. 
+
 ## Part 1 - Azure
 
 [Microsoft Build: Cloud Development Challenge](Azure.md) - 36 Chapters
@@ -40,3 +43,11 @@
 [Microsoft Build: Microsoft 365 Developer Challenge](M365dev.md) - 20 Chapters
 
   <img src="notes/m365.png" alt="-" width="400"/>
+
+## Part 7 - Azure Cosmos DB Developer 
+
+[Microsoft Build: Azure Cosmos DB Developer Challenge](Cosmos.md) - 30 Chapters
+
+## Part 8 - Developer Tools 
+
+[Microsoft Build: Developer Tools Challenge](DevTool.md) - 24 Chapters
