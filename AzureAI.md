@@ -26,6 +26,7 @@
   * [Monitor Cognitive Services](#monitor-cognitive-services)
   * [Deploy cognitive services in containers](#deploy-cognitive-services-in-containers)
   * [Addressing future labor and workplace needs](#addressing-future-labor-and-workplace-needs)
+  * [Tips](#tips)
 
 <!-- TOC end -->
 
@@ -477,4 +478,20 @@ What's the weather going to be like today?
 ## Addressing future labor and workplace needs
 
 <img src="notes/future-ai.jpg" alt="package" width="350"/>
+
+## Tips
+
+- How to choose Azure Cognitive Service for Vision / Speech service / Decision APIs 
+
+1. Vision
+
+    <img src="notes/cognitive-services-vision-api.png" alt="package" width="550"/>
+
+1. Speech
+
+    <img src="notes/cognitive-services-speech-api.png" alt="package" width="450"/>
+
+1. Decision APIs
+
+    <img src="notes/cognitive-services-decision-applied-ai.png" alt="package" width="450"/>
 
