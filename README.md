@@ -52,12 +52,14 @@
 
 [Microsoft Build: Developer Tools Challenge](DevTool.md) - 24 Chapters
 
-# <strong>Microsoft Products</strong>
+# <strong>Microsoft Learn: Notes</strong>
 
-## Part 1 - Power BI
-
-[Power BI](PowerBI.md)
-
-## Part 2 - Security, Compliance, and Identity 
+## Part 1 - Security, Compliance, and Identity 
 
 [Microsoft Security, Compliance, and Identity Fundamentals](Security.md)
+
+  <img src="notes/Inspire-SCI-1024x576.jpg" alt="-" width="400"/>
+
+## Part 2 - Power BI
+
+[Power BI](PowerBI.md)

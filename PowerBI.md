@@ -1,7 +1,7 @@
 
 # Table of Contents 
 
-# Contents: Microsoft Security, Compliance, and Identity Fundamentals
+# Contents: Power BI
 
   * [Part 1: Create and use analytics reports with Power BI](https://learn.microsoft.com/en-us/training/paths/create-use-analytics-reports-power-bi/)
 
