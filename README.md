@@ -51,3 +51,13 @@
 ## Part 8 - Developer Tools 
 
 [Microsoft Build: Developer Tools Challenge](DevTool.md) - 24 Chapters
+
+# <strong>Microsoft Products</strong>
+
+## Part 1 - Power BI
+
+[Create and use analytics reports with Power BI](PowerBI.md)
+
+## Part 2 - Security, Compliance, and Identity 
+
+[Microsoft Security, Compliance, and Identity Fundamentals](Security.md)
