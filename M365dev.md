@@ -20,6 +20,9 @@
   * [How are bots in Microsoft Teams unique?](#how-are-bots-in-microsoft-teams-unique)
   * [Teams App modules](#teams-app-modules)
 
+  - Additional Chapters (Not in the challenge)
+    * [What is Microsoft 365?](#what-is-microsoft-365)
+
 <!-- TOC end -->
 
 # Contents: DevOps Microsoft 365 Developer
@@ -196,3 +199,141 @@ Microsoft Teams tabs are web applications that are hosted by the provider or dev
     ```
 
 - This exercise makes it easy for you to create a basic web app. To get the initial starting app code that you'll use, browse to `https://github.com/microsoftdocs/mslearn-m365-microsoftgraph-dotnetcorerazor` and choose from one of the following options:
+
+## What is Microsoft 365?
+
+- Office 365 is a cloud-based service that includes apps such as Word, Excel, PowerPoint, and Outlook along with services such as Microsoft Exchange, SharePoint, Teams and OneDrive. Microsoft 365 is a cloud-based service that includes the same Office apps and services, plus Windows 10, and Enterprise Mobility + Security.
+
+- Windows 365?
+
+    You may be familiar with Windows operating system, the most current versions being Windows 10 and Windows 11. Windows 365 isn't exactly an operating system and isn't installed on a PC like Windows. Windows 365 is a cloud-based service that automatically creates a new type of Windows virtual machine, called Cloud PCs, for your end users. Windows 365 securely streams your Windows desktop, apps, settings, and content from the Microsoft cloud to a Cloud PC so you can access a personalized Windows 10 or Windows 11 experience from any Windows, iOS, or Android device. With a Cloud PC, Windows evolves from a device-based operating system (OS) to hybrid personalized computing.
+
+- Sign up for the Microsoft 365 Developer Program to explore Microsoft 365. The Microsoft 365 Developer Program includes a Microsoft 365 E5 developer subscription that you can use to create your own sandbox and develop solutions. This program is independent of your production environment. The program includes 25 user licenses and lasts for 90 days. You can build Microsoft Teams apps, Office add-ins for Word, Excel, PowerPoint, or Outlook, or SharePoint add-ins, using Microsoft Graph, the SharePoint Framework, Power Apps, and more.
+
+    [Developer Program | Microsoft 365 Dev Center](https://developer.microsoft.com/microsoft-365/dev-program)
+
+- Microsoft 365 Apps is a cloud-connected version of Office, an always up-to-date suite of the core desktop apps. Microsoft 365 Apps are available in both Microsoft 365 Apps for business and Microsoft 365 Apps for enterprise subscriptions. It includes the applications that you're familiar with, including **Access (PC only), Excel, Microsoft Teams, OneDrive, OneNote, Outlook, PowerPoint, Publisher (PC only), and Word.** You can use these applications to connect with services such as Microsoft Exchange Online and SharePoint Online.
+
+- **Microsoft Project and Visio aren't included with Microsoft 365 Apps, but are available from other subscription plans.**
+
+    - Microsoft Teams can help you bring everyone together in one place to meet, chat, call, and collaborate. For more information, see Video Conferencing, Meetings, Calling | Microsoft Teams.
+    - Word can help you create impressive documents and improve your writing with built-in intelligent features like Microsoft Editor and Researcher. For more information, see Microsoft Word - Word Processing Software | Microsoft 365.
+    Excel can help you simplify complex data and create easy-to-read spreadsheets and visualizations. For more information, see Microsoft Excel Spreadsheet Software | Microsoft 365.
+    - PowerPoint can help you create polished presentations that stand out with intelligent features like Presenter Coach and PowerPoint Designer. For more information, see Microsoft PowerPoint Slide Presentation Software | Microsoft 365.
+    - Outlook can help you manage your email, calendar, tasks, and contacts together in one place. For more information, see Microsoft Outlook Personal Email and Calendar | Microsoft 365.
+    - OneNote can help you with your note taking needs by organizing your notes into tabs and subsections creating a single digital notebook. For more information, see Microsoft OneNote Digital Note Taking App | Microsoft 365.
+    - OneDrive can help you save, access, edit and share files and photos wherever you are. For more information, see Personal Cloud Storage – Microsoft OneDrive.
+    - Access (PC only) can help you create your own database apps easily without being a developer. For more information, see Database Software and Applications | Microsoft Access.
+    - Publisher (PC only) can help you create polished, professional content from greeting cards, labels to newsletters and marketing materials. For more information, see Desktop Publishing Software | Download MS Publisher (microsoft.com).
+
+- The work management solutions through Microsoft 365 allow your teams to work the way they want, giving organizations the results they need. The work management tools available include **Microsoft Project, Planner, Bookings, To Do, Forms, and Lists.**
+
+    - Project is a powerful project management tool designed for more complex work efforts. Project for the web is Microsoft's most recent offering for cloud-based work and project management. Project for the web provides simple, powerful work management capabilities to meet most needs and roles. Tackle anything from small projects to large initiatives. Project managers and team members can use Project for the web to plan and manage work that may require dynamic scheduling, subtasks, and/or dependent tasks, regardless of team size.
+    - Planner is an intuitive, collaborative task management tool that enables people to plan, manage, and complete task-based initiatives. Planner provides a simple and visual way for teams to organize their work. As a web-based tool, Planner is accessible from anywhere and available as a mobile app for both iOS and Android.
+    - Planner is an intuitive, collaborative task management tool that enables people to plan, manage, and complete task-based initiatives. Planner provides a simple and visual way for teams to organize their work. As a web-based tool, Planner is accessible from anywhere and available as a mobile app for both iOS and Android.
+    - To Do is an intelligent task management app that makes it easy to plan and manage your day. Access To Do across devices including iOS, Android, Windows, and the web. Whether you need to complete a task for work, school or home, To Do empowers you to complete the most important things you need to get done, every day.
+    - Forms is a simple, lightweight app that allows you to quickly and easily capture the information you need. Create surveys, quizzes, polls, questionnaires, registrations and more. Forms work from any web browser, on any device.
+    - Lists is a smart information tracking app that gives you and your team a flexible way to organize information and work.
+    - Clipchamp is an in-browser video creation and editing experience. Create compelling videos using its library of filters, styles, transitions, and stock media combined with the power of a multi-track audio and video compositing editor. To learn more about Clipchamp, see Clipchamp Video Editor | Microsoft 365.
+    - Delve helps manage your Microsoft 365 profile. It lets you search for and discover content across Microsoft 365 based on personalized insights. To learn more about Delve, see What is Delve? (microsoft.com).
+    - Dynamics 365 is a set of intelligent business applications that helps you run your entire business and deliver greater results through predictive, artificial intelligence (AI) driven insights. These applications unify customer relationship management (CRM) and enterprise resource planning (ERP) capabilities by delivering new purpose-built applications designed to connect customers, products, people, and operations. To learn more about Dynamics 365, see Business Applications | Microsoft Dynamics 365.
+    - Dynamics 365 Customer Voice is an enterprise feedback management application you can use to easily keep track of the customer metrics that matter the most to your business. It adds rich insights by feeding real-time survey data into customer records and helps you stay informed on what customers value and how they view your products and services. To learn more about Customer Voice, see Customer Voice | Microsoft Dynamics 365.
+    - Power BI is a cloud-based suite of business analytics tools that lets anyone connect to, visualize, and analyze data. Find and share meaningful insights with hundreds of data visualizations, built-in AI capabilities, tight Excel integration, and pre-built and custom data connectors. To learn more about Power BI, see Data Visualization | Microsoft Power BI.
+    - Sway helps you express ideas using an interactive, web-based canvas. It can help you quickly and easily create professional, interactive, and visually appealing designs from images, text, documents, presentations, videos, maps, and more. To learn more about Sway, see Getting Started with Sway (microsoft.com).
+    - Whiteboard is a freeform, digital canvas. It functions like a traditional whiteboard, but hosted virtually. It allows you to visualize ideas, processes and enhance learning with the use of drawing, adding shapes, colors or sticky notes. To learn more about Whiteboard, see Digital Online Whiteboard App - Microsoft Whiteboard.
+
+- **Microsoft Viva** is an integrated employee experience platform (EXP) that empowers people and teams to be their best. An employee experience platform is a digital platform that helps organizations create a thriving culture with engaged employees and inspiring leaders. Microsoft Viva is powered by Microsoft 365 and designed for everyone to connect, learn, and grow. It's built right into Microsoft Teams and experienced through Microsoft 365, so employees can find what they need when they need it. Viva is easily customizable and extensible, accessible from anywhere, and integrates with the tools that organizations already use.
+
+    - Microsoft Viva brings together all the tools employees need to be successful in today’s world of work into one unified solution across four unique experience areas:
+
+        1. Connection. To keep everyone informed, included, and inspired.
+        1. Insight. To improve productivity and wellbeing with actionable insights.
+        1. Purpose. To align people's work to team and organizational goals.
+        1. Growth. To help employees learn, grow, and succeed.
+
+    - Connection
+
+        1. Viva Connections is your gateway to a modern employee experience. Viva Connections offers organizations a branded company app for employees to find everything they need to get their jobs done and stay connected. It's a customizable app in Microsoft Teams that gives everyone a personalized "home" destination to discover relevant news, conversations, and quick access to the tools and resources they need to succeed. For more information on Viva Connections, see Viva Connections Employee Communication Solution | Microsoft Viva.
+
+        1. Viva Engage powers the social layer of Microsoft Viva and Microsoft 365. Through communities, company-wide events, and open conversations, Viva Engage connects leaders and employees to openly share, ideate, problem solve, and contribute across boundaries. The Viva Engage app is integrated in Microsoft Teams that surfaces existing and new employee experiences powered by Yammer services. These new Viva Engage features will also appear in Yammer web, desktop and mobile apps. For more information on Viva Engage, see Employee Communication Platform | Microsoft Viva Engage.
+    
+    - Insight
+
+        1. Viva Insights provides data-driven, privacy-protected insights and actionable recommendations that help everyone in the organization work smarter and achieve balance. Personal, manager, and leader insights are available within the Viva Insights app in Microsoft Teams or through the web app. It uses quantitative and qualitative data to empower individuals, managers, and leaders to improve organizational productivity and wellbeing. For more information on Viva Insights, see Microsoft Viva Insights | Microsoft Viva.
+
+        <img src="notes/analytics-viva-insights-home-a51c47cd.png" alt="package" width="450"/>
+    
+    - Purpose
+
+        1. Viva Goals is a goal-setting and objectives and key results (OKR) management solution for your entire organization. Viva Goals allows you to connect your employees to your organization’s goals, stay aligned at scale, and drive business results to empower people and teams to understand their impact. Manage and surface goals with various interfaces and integrations, such as Microsoft Teams, web, mobile and email. For more information on Viva Goals, see Set Team and Company Goals | Microsoft Viva.
+    
+    - Growth
+
+        1. Viva Learning is a centralized learning hub in Microsoft Teams that lets you seamlessly integrate learning and building skills into your day. Viva Learning brings enterprise learning into the flow of work by connecting content from your organization, Learning Management Systems, third-party providers, and Microsoft. Along with AI providing aggregation and recommendations, it also allows for easy sharing, assigning, and tracking capabilities. For more information on Viva Learning, see Employee Learning and Training | Microsoft Viva.
+
+        1. Viva Topics delivers a knowledge discovery experience that helps people connect to information and experts across their organization. It uses artificial intelligence (AI) to automatically organize company-wide content and expertise into relevant topic cards. Clicking on a card opens a topic page with related documents, conversations, videos, and people. Viva Topics brings knowledge to your users in the Microsoft 365 apps they use every day. Experts can rapidly curate and share knowledge through simple, highly customizable web pages. For more information on Viva Topics, see Knowledge and Expertise | Microsoft Viva Topics.
+
+- Microsoft provides the tools and services to enable you to simplify the management of all these devices through their **endpoint management** solutions.
+
+    1. Microsoft Intune
+
+        - Microsoft Intune is a cloud-based unified endpoint management solution. It manages user access and simplifies app and device management across your many devices, including mobile devices, desktop computers, and virtual endpoints. You can protect access and data on organization-owned and users personal devices. Microsoft Intune supports Android, Android Open Source Project (AOSP), iOS/iPadOS, macOS, and Windows client devices. It integrates with other services, including Azure Active Directory, on-premises Configuration Manager, mobile threat defense (MTD) apps and services, Win32 and custom LOB apps, and more. Intune has compliance and reporting features that support a Zero Trust security model.
+
+        - Zero Trust is a security model consisting of three guiding principles: Verify explicitly, use least privilege access, and assume breach. To learn more about Zero Trust, visit Zero Trust implementation guidance.
+
+    1. Configuration Manager
+    Configuration Manager is an on-premises management solution to manage desktops, servers, and laptops that are on your network or internet-based. You can use Configuration Manager to manage data centers, apps, software updates, and operating systems. You can cloud-enable it to integrate with Intune, Azure Active Directory, Microsoft 365 Defender, and other cloud services. Use Configuration Manager to manage applications, OS deployments, software updates, monitor compliance, and more.
+
+    1. Co-management
+    Co-management combines your existing on-premises Configuration Manager investment with the cloud-based features in Intune, including using the web-based Endpoint Manager admin center. It helps you unlock more cloud-powered capabilities like conditional access. Co-management enables you to concurrently manage Windows 10 or later devices by using both Configuration Manager and Microsoft Intune. To learn about System Center Configuration Manager (SCCM) see What happened to SCCM?
+
+    1. Tenant-attach
+    If you need to manage a combination of both cloud and on-premises endpoints, you can use cloud attach to use both Intune and Configuration Manager. Cloud attach consists of tenant attach, co-management, and Endpoint analytics. Tenant-attach sets up synchronization between your Configuration Manager site and your Intune tenant. This synchronization provides you with a single view for all devices that you manage from the Microsoft Endpoint Manager admin center.
+
+    1. Endpoint Analytics
+    Endpoint Analytics is a cloud-native service that provides metrics and recommendations on the health and performance of your Windows client devices. Endpoint Analytics is part of the Microsoft Adoption Score. These analytics give you insights for measuring how your organization is working and the quality of the experience you're delivering to your users. Endpoint analytics can help identify policies or hardware issues that may be slowing down devices and help you proactively make improvements before end-users generate a help desk ticket.
+
+    1. Windows Autopilot
+    Windows Autopilot is a cloud-native service that sets up and pre-configures new devices, getting them ready for use. You can also use Windows Autopilot to reset, repurpose, and recover devices. It's designed to simplify the lifecycle of Windows devices, for both IT and end-users, from initial deployment through end of life. You can use Autopilot to preconfigure devices, automatically join devices to Azure Active Directory or enroll devices in Intune, customize out of box experience and more. You can also integrate Autopilot with Configuration Manager and co-management for more device configurations.
+
+    1. Azure Active Directory (Azure AD)
+    Azure AD is a cloud-native service that's used by Intune to manage the identities of users, devices, and groups. The Intune policies you create are assigned to these users, devices, and groups. When devices are enrolled in Intune, your users sign in to their devices with their Azure AD accounts.
+
+    1. Endpoint Manager admin center
+    This admin center is a one-stop web site to add users and groups, create and manage policies, and monitor your policies using report data. If you use Configuration Manager tenant-attach or co-management, you can see your on-premises devices and run some actions on these devices.
+
+- Windows 365 and Azure Virtual Desktop services are both virtual desktop solutions, also known as Desktop-as-a-Service, but there are several important differences between the services. Let's explore some of those differences.
+
+    1. Azure Virtual Desktop (AVD) is a modern and secure desktop and app virtualization solution that runs on the cloud. AVD allows users to connect to a Windows desktop running in the cloud. It's the only solution that delivers multi-session on Windows. AVD gives you the ability to access your desktop and applications from virtually anywhere. **Dedicated to a single user or used by multiple users, using FSLogix technology.**
+
+    1. Windows 365 is a cloud-based service that automatically creates a new type of Windows virtual machine, known as Cloud PCs, for your end users. Windows 365 introduces a new way to experience Windows client to organizations of all sizes. Securely stream the full Windows experience including, apps, data, and settings, from the Microsoft cloud to any personal or corporate device. **Dedicated to a single user.**
+
+- Windows-as-a-Service? **Windows-as-a-Service** is a new model for Windows. Instead of a major release every three or four years, features are released more frequently, such as semi-annually.
+
+- **Windows Autopilot** is a cloud-native service that sets up and pre-configures new devices. Windows Autopilot allows IT professionals to customize the out-of-box experience (OOBE) for Windows PCs and provide end users with a fully configured new Windows device. Users can go through the deployment process independently, without the need to consult their IT administrator.
+
+- **The Microsoft 365 admin center** is where you can manage your Microsoft 365 subscription. To access the admin center, go to admin.microsoft.com and sign in with your admin account.
+
+    - The following list describes the common tasks that are done in the admin center:
+
+        1. Manage users by adding, deleting, restoring users or resetting a user's password.
+        1. Manage licenses by adding and removing license.
+        1. Manage a Microsoft 365 group by creating a group, deleting a group, and editing the name or description.
+        1. Manage billing.
+        1. View or create service requests.
+        1. Manage global settings for apps.
+        1. View activity reports.
+        1. View service health.
+
+    - Each specialist admin center gives you more options for that specific area including reports. The following list describes some of the other admin centers and the reports available:
+
+        1. Security - Microsoft 365 Defender. View information about security trends and track the protection status of your identities, data, devices, apps, and infrastructure.
+        1. Compliance - Microsoft Purview. View status and trends for the compliance of your Microsoft 365 devices, data, identities, apps, and infrastructure.
+        1. Endpoint Manager. View reports through Microsoft Intune on endpoint compliance, health, and trends in your organization.
+        1. Azure Active Directory. View activity reports, which include registration and usage. These reports help you understand the behavior of users in your organization like registrations and sign-ins.
+        1. Exchange. View reports of email flow within your organization and mailbox migration batches created for your organization.
+        1. SharePoint. View reports on the security and compliance of your data in SharePoint. These reports include sharing links to identify potential oversharing and sensitivity labels applied to files to monitor sensitive content.
+        1. Teams. View usage reports to gain insights and information on Teams usage. Your organization can use these reports to better understand usage patterns like how users are using Teams, and what devices they use to connect to Teams.
+
+
+- **The Microsoft 365 user portal** gives you access to your email, calendar, and documents through Microsoft 365 apps like Office, Teams, Outlook, and more, on the web. You can access your data from anywhere with a device and internet access. Users can sign in with their email account and password through www.office.com. 
