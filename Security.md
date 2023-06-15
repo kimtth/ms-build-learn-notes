@@ -222,13 +222,13 @@ Once you authenticate a user, you'll need to decide where they can go, and what 
 
     - The following additional forms of verification, described in the previous unit, can be used with Azure AD Multi-Factor Authentication:
 
-    1. Microsoft Authenticator app
-    1. Windows Hello for Business
-    1. FIDO2 security key
-    1. OATH hardware token (preview)
-    1. OATH software token
-    1. SMS
-    1. Voice call
+        1. Microsoft Authenticator app
+        1. Windows Hello for Business
+        1. FIDO2 security key
+        1. OATH hardware token (preview)
+        1. OATH software token
+        1. SMS
+        1. Voice call
         
 - Self-service password reset (SSPR) 
 
@@ -238,24 +238,24 @@ Once you authenticate a user, you'll need to decide where they can go, and what 
 
     - Self-service password reset works in the following scenarios:
 
-    1. Password change: when a user knows their password but wants to change it to something new.
-    1. Password reset: when a user can't sign in, such as when they forget the password, and want to reset it.
-    1. Account unlock: when a user can't sign in because their account is locked out.
+        1. Password change: when a user knows their password but wants to change it to something new.
+        1. Password reset: when a user can't sign in, such as when they forget the password, and want to reset it.
+        1. Account unlock: when a user can't sign in because their account is locked out.
 
     - To use self-service password reset, users must be:
 
-    1. Assigned an Azure AD license. Refer to the Learn More section of the summary and resources unit for a link to the Licensing requirements for Azure Active Directory self-service password reset.
-    1. Enabled for SSPR by an administrator.
-    1. Registered, with the authentication methods they want to use. Two or more authentication methods are recommended in case one is unavailable.
+        1. Assigned an Azure AD license. Refer to the Learn More section of the summary and resources unit for a link to the Licensing requirements for Azure Active Directory self-service password reset.
+        1. Enabled for SSPR by an administrator.
+        1. Registered, with the authentication methods they want to use. Two or more authentication methods are recommended in case one is unavailable.
 
     - The following authentication methods are available for SSPR:
 
-    1. Mobile app notification
-    1. Mobile app code
-    1. Email
-    1. Mobile phone
-    1. Office phone
-    1. Security questions
+        1. Mobile app notification
+        1. Mobile app code
+        1. Email
+        1. Mobile phone
+        1. Office phone
+        1. Security questions
 
 - Azure AD Password Protection helps you defend against password spray attacks. Most password spray attacks submit only a few of the known weakest passwords against each of the accounts in an enterprise. This technique allows the attacker to quickly search for an easily compromised account and avoid potential detection thresholds.
 
@@ -285,7 +285,7 @@ Once you authenticate a user, you'll need to decide where they can go, and what 
 
 - Identity Protection provides organizations with three reports that they can use to investigate identity risks in their environment. These reports are the **risky users, risky sign-ins, and risk detections.** Investigation of events is key to understanding and identifying any weak points in your security strategy.
 
-- **- **Privileged Identity Management is a feature of Azure AD Premium P2.****
+- **Identity Protection is a feature of Azure AD Premium P2.****
 
 ## Describe the capabilities of Microsoft security solutions
 
