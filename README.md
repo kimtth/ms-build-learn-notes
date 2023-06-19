@@ -60,6 +60,12 @@
 
   <img src="notes/Inspire-SCI-1024x576.jpg" alt="-" width="400"/>
 
-## Part 2 - Power BI
+## Part 2 - Viva Suite
+
+[Viva Suite](Viva.md)
+
+  <img src="notes/four-experience-areas.png" alt="-" width="400"/>
+
+## Part 3 - Power BI
 
 [Power BI](PowerBI.md)

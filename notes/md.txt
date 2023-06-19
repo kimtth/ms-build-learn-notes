@@ -1,1 +1,1 @@
-C:\Users\taehokim\Desktop\azure-openai-elastic-vector-langchain\notes\notes\docx2md>docx2md.exe ..\toMarkdown.docx > ..\md.txt
+ÿþ
