@@ -1,6 +1,6 @@
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
-# Table of Contents 
+# Table of Contents
 
   * [Power Apps canvas apps](#power-apps-canvas-apps)
   * [Power Automate](#power-automate)
