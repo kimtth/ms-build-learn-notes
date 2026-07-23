@@ -1,6 +1,6 @@
 # Table of Contents 
 
-<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
 
   * [Building apps for Microsoft Teams](#building-apps-for-microsoft-teams)
     + [What makes up a Microsoft Teams app?](#what-makes-up-a-microsoft-teams-app)
@@ -23,7 +23,7 @@
   - Additional Chapters (Not in the challenge)
     * [What is Microsoft 365?](#what-is-microsoft-365)
 
-<!-- TOC end -->
+
 
 # Contents: DevOps Microsoft 365 Developer
 
@@ -114,7 +114,7 @@ A web content page is a webpage you host that can be embedded in a tab or a task
 ## What are messaging extensions?
 Messaging extensions allow users to interact with your web service through buttons and forms in the Microsoft Teams client. They can search, or start actions, in an external system from the compose message area, the command box, or directly from a message. You can then send the results of that interaction back to the Microsoft Teams client, typically in the form of a richly formatted card.
 
-<img src="notes/02-messaging-extension-invoke-locations.png" alt="package" width="450"/>
+<img src="../../assets/images/02-messaging-extension-invoke-locations.png" alt="package" width="450"/>
 
 ## What is a Microsoft Teams tab?
 By using a Microsoft Teams tab, you can display rich interactive web content within Microsoft Teams clients. There are two approaches to creating a custom tab. You can take an existing web-app experience and adapt it to a custom tab. You also can build a custom tab from scratch.
@@ -123,7 +123,7 @@ Microsoft Teams tabs are web applications that are hosted by the provider or dev
 
 - Tab Scope
 
-    <img src="notes/02-04.png" alt="package" width="450"/>
+    <img src="../../assets/images/02-04.png" alt="package" width="450"/>
 
     1. Team scope: Tabs in channels can be used by teams to interact with your shared experience. These tabs are referred to as channel tabs and were previously known as configurable tabs. When these tabs are added to a team, a user configures the content of your tab experience when the tab is first added to a channel.
 
@@ -261,7 +261,7 @@ Microsoft Teams tabs are web applications that are hosted by the provider or dev
 
         1. Viva Insights provides data-driven, privacy-protected insights and actionable recommendations that help everyone in the organization work smarter and achieve balance. Personal, manager, and leader insights are available within the Viva Insights app in Microsoft Teams or through the web app. It uses quantitative and qualitative data to empower individuals, managers, and leaders to improve organizational productivity and wellbeing. For more information on Viva Insights, see Microsoft Viva Insights | Microsoft Viva.
 
-        <img src="notes/analytics-viva-insights-home-a51c47cd.png" alt="package" width="450"/>
+        <img src="../../assets/images/analytics-viva-insights-home-a51c47cd.png" alt="package" width="450"/>
     
     - Purpose
 

@@ -265,7 +265,7 @@ The @model directive is telling ASP.NET to tie this Razor page with a C# class c
 
 A package dependency is a third-party library. It's a piece of reusable code that accomplishes something and can be added to your application. 
 
-<img src="notes/nuget-roles.png" alt="package" width="450"/>
+<img src="../../assets/images/nuget-roles.png" alt="package" width="450"/>
 
 `https://www.nuget.org/packages/<package name>.` 
 
@@ -356,7 +356,7 @@ File.ReadAllText($"stores{Path.DirectorySeparatorChar}201{Path.DirectorySeparato
 
 Blazor is a user-interface framework built on .NET and Razor. Blazor applications can run on a server as part of an ASP.NET application, or can be deployed to run in the browser on a user's machine similar to a single-page-application.
 
-<img src="notes/blazor.jfif" alt="blazor" width="450"/>
+<img src="../../assets/images/blazor.jfif" alt="blazor" width="450"/>
 
 - Blazor Server is an implementation of the Blazor user-interface framework as part of the ASP.NET Core web development framework, deployed to a web server. Developing an application with Blazor Server generates HTML on a web server as it is requested by web site visitors, typically using a web browser. That HTML is then delivered to the visitor's browser, and a two-way communication pipeline is maintained using ASP.NET Core SignalR and preferring a Web Sockets connection.
 
@@ -558,7 +558,7 @@ EditForm
 
 Blazor component lifecycle
 
-<img src="notes/bl-component-lifecycle.png" alt="bl-life" width="450"/>
+<img src="../../assets/images/bl-component-lifecycle.png" alt="bl-life" width="450"/>
 
 ```bash
 git clone https://github.com/MicrosoftDocs/mslearn-build-interactive-components-blazor.git BlazingPizza
@@ -641,11 +641,11 @@ git clone https://github.com/microsoftdocs/mslearn-dotnet-kubernetes
 
 - Cloud Native Microservice: eShopOnContainers Solution architecture
 
-<img src="notes/eshop-spa.png" alt="bl-life" width="450"/>
+<img src="../../assets/images/eshop-spa.png" alt="bl-life" width="450"/>
 
 Solution diagram
 
-<img src="notes/eshop-architecture.png" alt="bl-life" width="450"/>
+<img src="../../assets/images/eshop-architecture.png" alt="bl-life" width="450"/>
 
 ```bash
 https://github.com/dotnet-architecture/eshoponcontainers

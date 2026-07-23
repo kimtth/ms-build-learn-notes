@@ -27,11 +27,11 @@
 
     - Viva Connections
     
-        <img src="notes/vc-desktop-mobile.png" alt="-" width="400"/>
+        <img src="../../assets/images/vc-desktop-mobile.png" alt="-" width="400"/>
     
     - Viva Engage
 
-        <img src="notes/viva-engage-example.png" alt="-" width="400"/>
+        <img src="../../assets/images/viva-engage-example.png" alt="-" width="400"/>
 
 - Viva Insights provides data-driven insights and targeted recommendations to foster productivity and wellbeing. With Viva Insights, your organization can gather and access information like:
 
@@ -41,11 +41,11 @@
 
     - Viva Insights
 
-        <img src="notes/viva-insights.png" alt="-" width="400"/>
+        <img src="../../assets/images/viva-insights.png" alt="-" width="400"/>
 
 - Viva Goals creates a clear structure to align people's work to the team's or organization's goals. You can set, track, and manage goals for your organization, and align your teams and individuals to those goals at a scale. To enable this, Viva Goals introduces the concept of **objectives and key results (OKR) framework**.
 
-    <img src="notes/objectives-example-light.png" alt="-" width="250"/>
+    <img src="../../assets/images/objectives-example-light.png" alt="-" width="250"/>
 
 - Both Viva Learning and Viva Topics support learning and growth for employees in your organization. Viva Learning aggregates and curates learning content, such as courses, videos, eBooks, and audio from various sources and platforms.
 
@@ -77,7 +77,7 @@
 
     - Viva Learning
 
-        <img src="notes/learn-example.png" alt="-" width="400"/>
+        <img src="../../assets/images/learn-example.png" alt="-" width="400"/>
 
 - Identify roles and responsibilities for adoption
 
@@ -95,7 +95,7 @@
 
 - Microsoft Viva admin page experience
 
-  <img src="notes/admin-page.png" alt="-" width="550"/>
+    <img src="../../assets/images/admin-page.png" alt="-" width="550"/>
 
 
 

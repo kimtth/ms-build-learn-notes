@@ -1,22 +1,18 @@
-<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+## Power Platform Developer Study Notes
 
-# Table of Contents
+* [Power Apps canvas apps](#power-apps-canvas-apps)
+* [Power Automate](#power-automate)
+* [AI Builder](#ai-builder)
+* [Dataverse Web API](#dataverse-web-api)
+* [Azure integration solution](#azure-integration-solution)
+* [Power Apps component framework](#power-apps-component-framework)
+* [Model-driven app](#model-driven-app)
+* [Dataverse Web API](#dataverse-web-api)
+* [Azure integration solution](#azure-integration-solution)
+* [Power Apps component framework](#power-apps-component-framework)
+    * [Model-driven app](#model-driven-app)
 
-  * [Power Apps canvas apps](#power-apps-canvas-apps)
-  * [Power Automate](#power-automate)
-  * [AI Builder](#ai-builder)
-  * [Dataverse Web API](#dataverse-web-api)
-  * [Azure integration solution](#azure-integration-solution)
-  * [Power Apps component framework](#power-apps-component-framework)
-  * [Model-driven app](#model-driven-app)
-  * [Dataverse Web API](#dataverse-web-api)
-  * [Azure integration solution](#azure-integration-solution)
-  * [Power Apps component framework](#power-apps-component-framework)
-  * [Model-driven app](#model-driven-app)
-
-<!-- TOC end -->
-
-# Contents: Power Platform Developer
+## Contents: Power Platform Developer
 
 1. [Get started with Power Apps canvas apps](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps)
 1. [Customize a canvas app in Power Apps](https://learn.microsoft.com/en-us/training/modules/customize-apps-in-powerapps)
@@ -39,8 +35,13 @@
 1. [How to build your first model-driven app with Dataverse](https://learn.microsoft.com/en-us/training/modules/build-first-model-driven-app-dataverse)
 1. [Create tables in Dataverse](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps-common-data-service)
 1. [Get started with model-driven apps in Power Apps](https://learn.microsoft.com/en-us/training/modules/get-started-with-model-driven-apps-in-powerapps)
-<<<<<<< HEAD
 1. [Configure forms, charts, and dashboards in model-driven apps](https://learn.microsoft.com/en-us/training/modules/configure-model-driven-apps-customer-engagement-apps)
+- An environment is the boundary for Power Apps, Power Automate, Dataverse, connections, and related resources. Use separate development, test, and production environments instead of building production solutions in the Default environment.
+- Use least-privilege environment roles, resource permissions, and Dataverse security roles. Apply data policies to control which connectors can be used together and reduce data-exfiltration risk. See [Power Platform security and governance considerations](https://learn.microsoft.com/en-us/power-platform/admin/governance-considerations).
+- Product limits, connector availability, and licensing change. Do not use the fixed per-account limits in historical content below as an implementation baseline; verify current licensing and service limits in Microsoft Learn.
+- Use **Microsoft Entra ID** rather than Azure AD in new documentation and application-registration guidance.
+- Use solutions, environment variables, connection references, and pipelines or source control to promote Power Platform changes across development, test, and production. Keep production changes traceable and separate maker experimentation from governed releases.
+- For conversational or agentic low-code experiences, evaluate Microsoft Copilot Studio. It can use governed knowledge, Power Automate actions, connectors, and Dataverse; use Microsoft Foundry when custom orchestration, managed agent hosting, or a broader tool and evaluation surface is required.
 
 ## Power Apps canvas apps
 
@@ -54,90 +55,58 @@
 - You must select the form factor when you begin building your app. After you have selected tablet or phone, it can't be changed. With the tablet form factor, you can adjust the screen size.
 - Navigate(Screen [, Transition [, UpdateContextRecord ]]): `Navigate(Screen2,ScreenTransition.Cover)`
 - The `Back` function returns to the screen that was most recently displayed.
-
 - App versioning
-
-- Users and contributors need permissions to any data connections and gateways that a shared app uses. **Some permissions come implicitly with the app, but you must explicitly grant others.** If you create an app based on Microsoft Dataverse, you must also ensure that the users you share the app with have the appropriate permissions for the table or tables on which the app relies. 
-
+- Users and contributors need permissions to any data connections and gateways that a shared app uses. **Some permissions come implicitly with the app, but you must explicitly grant others.** If you create an app based on Microsoft Dataverse, you must also ensure that the users you share the app with have the appropriate permissions for the table or tables on which the app relies.
 - People who have Co-owner permission also need a Power Apps plan so that they'll be able to perform edits on the app.
-
 - An environment is a container for apps and other resources, such as data connections and flows from Power Automate. It's a way to group items based on business requirements.
-
 - `make.powerapps.com.`
-
 - Build an app based on data in a Microsoft Excel workbook that's stored in Microsoft OneDrive for Business.
 
-<img src="notes/powerapp.png" alt="package" width="650"/>
+<img src="../../assets/images/powerapp.png" alt="package" width="650"/>
 
 ## Power Automate
 
-- Power Automate is an online workflow service that automates actions across the most common apps and services. 
-
+- Power Automate is an online workflow service that automates actions across the most common apps and services.
 - You can use Power Automate to automate workflows between your favorite applications and services, sync files, get notifications, collect data, and much more.
-
-- Shared flows extend the potential of Power Automate to groups of people. 
-
+- Shared flows extend the potential of Power Automate to groups of people.
 - **Shared connections can be used only in the flow in which they were created.**
-
 - **Owners can use services in a flow, but they can't change the credentials for a connection that another owner created.**
+- Capacity, licensing, connector limits, and gateway support depend on the tenant, environment, plan, and connector. Review current limits and design an operating model before scaling a solution.
+- Some external connectors, like Twitter, implement connection throttling to control the quality of service.
 
-- Each account can have up to:
-
-    1. 600 flows.
-    1. 50 custom connectors.
-    1. 20 connections per application programming interface (API) and 100 connections total.
-
-- You can install a gateway only in the default environment.
-
-- Some external connectors, like Twitter, implement connection throttling to control the quality of service. 
-
-<img src="notes/start-of-tour.png" alt="package" width="650"/>
+<img src="../../assets/images/start-of-tour.png" alt="package" width="650"/>
 
 - Business process flow
 
-<img src="notes/example-car-sales-pre-owned-stage.jpg" alt="package" width="550"/>
+<img src="../../assets/images/example-car-sales-pre-owned-stage.jpg" alt="package" width="550"/>
 
 - **By default, the System Administrator and System Customizer security roles have access to new business process flows.**
-
 - A connector, that is simply a wrapper around an API (Application Programming Interface), allows the underlying service to talk to Microsoft Power Automate.
-
 - Enter the `statuscode eq 1` Open Data Protocol (OData) filter query and select Full name in the dynamic content pane. For more about filter and order by queries, see `MSDN: $filter` and `MSDN: $orderby`.
-
 - **Process advisor** will map your process and give you insights on actions that are taking too long or have numerous variations.
 
-<img src="notes/analytics-view.png" alt="package" width="550"/>
+<img src="../../assets/images/analytics-view.png" alt="package" width="550"/>
 
 ## AI Builder
 
 - Power Automate offers AI Builder actions that enable usage of all model types in flows. Adding AI Builder actions in your flow allows you to:
-
 - Perform model inference by using outputs of upstream actions (email attachments received, SharePoint files dropped, created records in a Microsoft Dataverse table, and so on).
-
 - Process model inference results in downstream actions (send by email, store in Dataverse records, message in Teams, and so on).
 
 ## Dataverse Web API
 
-- The two main ways to interact with data and metadata in Microsoft Dataverse are the Web API and the organization service. You can use the organization service when writing plug-ins or workflow extensions by using the .NET Framework SDK assemblies that are provided by Microsoft. 
-
-- Dataverse Web API is implemented as an OData (OASIS Open Data Protocol) service. 
-
-- Fundamentally, OData protocol is a set of RESTful (REpresentational State Transfer) APIs, a time-tested industry standard for providing interoperability between systems. 
-
+- The two main ways to interact with data and metadata in Microsoft Dataverse are the Web API and the organization service. You can use the organization service when writing plug-ins or workflow extensions by using the .NET Framework SDK assemblies that are provided by Microsoft.
+- Dataverse Web API is implemented as an OData (OASIS Open Data Protocol) service.
+- Fundamentally, OData protocol is a set of RESTful (REpresentational State Transfer) APIs, a time-tested industry standard for providing interoperability between systems.
 - **FetchXML** is a robust query language that allows for complex querying of Dataverse data. Microsoft provides a way for users to run FetchXML queries within a Web API query. This approach can be valuable if you encounter a scenario where FetchXML is a better fit for your particular query versus using OData query syntax.
-
-- Microsoft Dataverse uses OAuth 2.0 as its authentication standard.
-
-- All access to Dataverse is done in the context of a signed-in user. 
-
-- **To connect Postman to Microsoft Dataverse, you must first ensure that you have an application registered in your Azure AD environment.**
-
+- Microsoft Dataverse uses OAuth 2.0 and Microsoft Entra ID for authentication. Use supported Microsoft identity platform libraries and avoid storing client secrets in source code.
+- All access to Dataverse is done in the context of a signed-in user.
+- **To connect Postman to Microsoft Dataverse, first register an application in Microsoft Entra ID and grant only the required delegated or application permissions.**
 - You can find the version number of your Web API endpoint by going to `your environment's Developer` resources in the maker portal.
-
 - OData is a time-tested language for querying RESTful APIs.
-
     1. Create records
         ```
-        POST [Organization URI]/api/data/v9.0/accounts HTTP/1.1
+        POST [Organization URI]/api/data/v9.2/accounts HTTP/1.1
         Content-Type: application/json; charset=utf-8
         OData-MaxVersion: 4.0
         OData-Version: 4.0
@@ -162,20 +131,19 @@
         ```
 
 - You can run FetchXML queries by using the following methods: Dataverse Web API, Organization service.
-
 - If you're querying data against a model-driven app that is built on Dataverse, the simplest method for building FetchXML queries is to use Advanced Find, which contains a `Download FetchXML` function.
 
-    <img src="notes/unit5-image1.png" alt="package" width="450"/>
+    <img src="../../assets/images/unit5-image1.png" alt="package" width="450"/>
 
     ```xml
-    <fetch mapping='logical'>  
-    <entity name='account'>   
-        <attribute name='accountid'/>   
-        <attribute name='name'/>   
-        <filter type='and'>   
-            <condition attribute='address1_stateorprovince' operator='eq' value='WA' />   
-        </filter>   
-    </entity>   
+    <fetch mapping='logical'>
+    <entity name='account'>
+        <attribute name='accountid'/>
+        <attribute name='name'/>
+        <filter type='and'>
+            <condition attribute='address1_stateorprovince' operator='eq' value='WA' />
+        </filter>
+    </entity>
     </fetch>
     ```
 - Call Power Automate actions from the Web API
@@ -202,10 +170,9 @@
 - Unbound vs. bound actions
 
     An action can be built as either unbound (meaning, it doesn't have a Dataverse entity correlated to it) or bound (meaning, the logic is tied to a specific entity record). SQL developers could
-    consider these actions as similar to stored procedures (unbound actions) versus triggers (bound actions). 
+    consider these actions as similar to stored procedures (unbound actions) versus triggers (bound actions).
 
 - Within the context of Microsoft Dataverse, the logic that you're running will apply all appropriate role and object-based security based on the user whom you're impersonating.
-
 - Delta links
 
     According to the OData 4.0 documentation, delta links are "opaque, service-generated links that the client uses to retrieve subsequent changes to a result." Microsoft has built this standard into change tracking in Dataverse to provide a common, standard method for interfacing with change data as it occurs over time.
@@ -220,47 +187,35 @@
 |Publish your APIs for internal and external developers to use when connecting to backend systems that are hosted anywhere.                                                 |[API Management](https://azure.microsoft.com/services/api-management/)|
 |Connect supported Azure and third-party services by using a fully managed event-routing service with a publish-subscribe model that simplifies event-based app development.|[Event Grid](https://azure.microsoft.com/services/event-grid/)        |
 |Continuously ingest data in real time from up to hundreds of thousands of sources and stream a million events per second.                                                  |[Event Hubs](https://azure.microsoft.com/services/event-hubs/)        |
+|Extend process automation or Copilot Studio agents with AI services, retrieval, or document processing.                                                                  |[Microsoft Foundry and Foundry Tools](https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry) |
 
-    <img src="notes/unit5-image11.png" alt="package" width="250"/>
+    <img src="../../assets/images/unit5-image11.png" alt="package" width="250"/>
 
 - Publishing events from Dataverse to Azure
-
-    1. - You will be using **Dataverse's Plug-in Registration Tool** to configure the publishing of your Dataverse data to your Service Bus. This tool is provided as part of Microsoft's Dataverse developer tooling, which is found at NuGet. 
-
+    1. You will be using **Dataverse's Plug-in Registration Tool** to configure the publishing of your Dataverse data to your Service Bus. This tool is provided as part of Microsoft's Dataverse developer tooling, which is found at NuGet.
     1. PPF > Settings > Advanced Settings and select the System Jobs view. : If `System Job` ran successfully, the Status Reason should be Succeeded. Because the integration step ran successfully, you can now verify that the account creation message has arrived in your Service Bus queue by going to the queue in the Azure portal. `e.g., Dataverse -> Service Bus`
-
     1. Another method for publishing events from Microsoft Dataverse to an external service is to register webhooks. A webhook is an HTTP-based mechanism for publishing events to any Web API-based service of your choosing. This method allows you to write your own custom code that is hosted on external services as a point-to-point. `e.g., Webhook -> Azure Function`
-
     1. Within the Plug-in Registration Tool, you can register a new webhook by selecting Register New Web Hook under the Register menu option.
 
 ## Power Apps component framework
 
 - Code components are implemented using HTML, CSS, and TypeScript. While it is not required that you use any particular UI Framework, React and Fluent UI are popular choices.
-
 - The Power Platform CLI (command-line interface) is a developer-focused command-line tooling that provides commands for building custom code.
-
 - When you start to build your code component, you will use the CLI to scaffold your initial files using a template. The following is an example of initializing a component using the field template: `pac pcf init --namespace Contoso --name Slider --template field`
-
 - `pac pcf push --publisher-prefix msl`
-
-- Power Apps component framework exposes a formatting API that can be especially useful when you need to format various values in your application. 
-
+- Power Apps component framework exposes a formatting API that can be especially useful when you need to format various values in your application.
 - Use the Microsoft Dataverse web API in a Power Apps component. The Web API component is only supported in model-driven apps.
 
 ## Model-driven app
 
 - Unlike canvas apps, where you build out an app screen-by-screen by adding logic and code as you go, model-driven apps can be created with a few simple steps. Model-driven apps use a component-focused approach to develop the app.
 
-    <img src="notes/layers.png" alt="package" width="450"/>
+    <img src="../../assets/images/layers.png" alt="package" width="450"/>
 
 - Through model-driven apps, you can create business process flows.
-
 - When you create a model-driven app, you can use all of the power of Dataverse to rapidly configure your forms, and process flows. Relationships set between tables are automatically available here and easy to use when building views.
-
 - When creating a model-driven app, you use tables from Microsoft Dataverse as your building blocks.
-
 - Dataverse data is stored in tables.
-
 - Microsoft Dataverse is the cloud data platform for the Microsoft Power Platform that is easy to use, compliant, secure, scalable, and globally available. Using Microsoft Dataverse as the data store for your apps has many benefits:
     - Metadata: Properties you define on your data model are used by Power Apps, speeding up the building of apps.
     - Data access: You can control who can access which tables, rows, and columns.
@@ -275,9 +230,7 @@
     - Integration: Dataverse is deeply integrated with Microsoft cloud services such as Microsoft 365 and Microsoft Azure.
     - Proven: Microsoft Dataverse is used by Dynamics 365 apps such as Dynamics 365 Sales and Dynamics 365 Customer Service.
     - Connectors: Microsoft Dataverse has connectors for Power Apps, Power Automate, and Power BI.
-
 - Tables are the key building blocks of Microsoft Dataverse. In Dataverse, a table is more than just a database table with columns and relationships. A Dataverse table contains other components to support your apps and flows. Tables in Dataverse have the following properties:
-
     - Name: For example Pets and Skills
     - Rows: Fido and Max are instances of pets
     - Columns: Such as pet type, age, and breed
@@ -288,36 +241,21 @@
     - Charts: Visualizations of table rows
     - Business rules: Logic that can be applied to columns in a table row
     - Metadata: Properties of the table that affect the capabilities of the table and how the table can be used by apps and flows
-
-
-
 - Database tables have a primary key. A primary key uniquely identifies a single row in the table. In Dataverse, the primary key is a Globally Unique Identifier (GUID), a 32-character string such as 123e4567-e89b-12d3-a456-426655440000. The GUID for the primary key is generated automatically when a row is created in a Dataverse table. When creating a Dataverse table, this column is defaulted to `Name`.
-
 - You cannot change the following after the table is created:
-
     1. Schema name
     1. Table type
     1. Table ownership
-
 - Table types
-
     1. Standard: A table where you can store data and add to the navigation in model-driven apps. Most tables you create will be standard tables.
-
     1. Activity: Activity tables store interactions such as phone calls, tasks, and appointments. Dataverse has a set of activity tables. These tables share the same set of columns and share security privileges. Many of the table options, including the primary column, are fixed and can't be changed. Activity tables appear in the timeline on model-driven app forms.
-
     1. Virtual: Virtual tables connect to data from an external data source such as Microsoft Azure SQL Database or a SharePoint List.
-
 - Microsoft Dataverse is more than a data store, it contains features to apply business logic to data and securing access to data.
-
 - Configure tables and columns for auditing -
-Auditing can be configured at three levels: environment, table, and column. 
-
+Auditing can be configured at three levels: environment, table, and column.
 - Dual-write is an out-of-the-box infrastructure that provides near-real-time interaction between Dataverse and Dynamics 365 finance and operations apps or Business Central apps.
-
 - Virtual tables (also known as virtual entities) enable the integration of data residing in external systems by seamlessly representing that data as tables in Microsoft Dataverse, without replication of data and often without custom coding.
-
 - Components of model-driven apps
-
 1. Data components
 
     |             |                                                                                                                                                                                                                                                                                                                                                                             |                              |
@@ -338,7 +276,7 @@ Auditing can be configured at three levels: environment, table, and column.
     |Form         |A set of data-entry columns for a given table that matches the items that your organization tracks for the table. For example, a set of data-entry columns where users input relevant information to track a customer's previous orders along with specific requested reorder dates.|Form designer    |
     |View         |Views define how a list of records for a specific table appears in your app. A view defines the columns shown, the width of each column, the sort behavior, and the default filters.                                                                                                |View designer    |
 
-1. Logic 
+1. Logic
     |                     |                                                                                                                                                                                                                                                                       |                              |
     |---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
     |**Type of logic**    |**Description**                                                                                                                                                                                                                                                        |**Designer**                  |
@@ -361,7 +299,7 @@ Auditing can be configured at three levels: environment, table, and column.
 
     `Switch to classic.`
 
-    <img src="notes/updated-solutionexplorer-entitiescollapsed.png" alt="package" width="450"/>
+    <img src="../../assets/images/updated-solutionexplorer-entitiescollapsed.png" alt="package" width="450"/>
 
 - About predefined security roles
 

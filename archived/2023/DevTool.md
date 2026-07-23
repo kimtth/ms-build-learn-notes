@@ -150,13 +150,13 @@ The main difference in usage is that GitHub Script provides you with a preauthen
 
 - With kubectl and AKS, you can also leverage other open-source tools. A popular example is Argo CD - a continuous delivery tool for Kubernetes that provides incredible visualizations for what's happening with your Kubernetes infrastructure. Argo CD can increase your confidence and trust in systems, as you can show a deployment rollout or scaling operation happening in real time.
 
-    <img src="notes/argocd-ui.gif" alt="package" width="650"/>
+    <img src="../../assets/images/argocd-ui.gif" alt="package" width="650"/>
 
 - Ingress controllers provide the capability to deploy and expose your applications to the world, without the need to configure network-related services.
 
 - Ingress controllers allow requests to be served from a single DNS output. When a new service is deployed, ingress controllers create a DNS record for you.
 
-    <img src="notes/2-4-http-application-routing-diagram.png" alt="package" width="450"/>
+    <img src="../../assets/images/2-4-http-application-routing-diagram.png" alt="package" width="450"/>
 
 - CQRS separates the models for reading and writing data. This process involves dividing a system's operations into two separate categories:
 
@@ -183,7 +183,7 @@ The main difference in usage is that GitHub Script provides you with a preauthen
 
     There are five process levels within each dimension.
 
-    <img src="notes/2-process-levels.png" alt="package" width="450"/>
+    <img src="../../assets/images/2-process-levels.png" alt="package" width="450"/>
 
     1. Ad hoc, which have no process in place. Success depends on individual efforts.
     1. Managed, which have a partially documented process. Success depends on discipline.

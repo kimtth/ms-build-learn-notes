@@ -1,95 +1,20 @@
 
-# <strong>Microsoft Build: Challenge 2023</strong>
+## Microsoft Learn Study Notes
 
-🪟🍭🖥️ This document is a concise summary of the Microsoft Build Challenge. It condenses the written content into key points that I will review later.
+🪟🍭🖥️ Concise summaries and study notes for Microsoft products, including Azure, .NET, Microsoft 365, Power Platform, Security, DevOps, Viva, and GitHub. 
 
-> [Skills Challenge Registration](https://www.microsoft.com/en-US/cloudskillschallenge/build/registration/2023)
+## Topics
 
-> Challenge Details
-> There are 8 challenges available. The challenge ends on June 20, 2023 at 4:00 PM (16:00) UTC.
+| Area | Note |
+| --- | --- |
+| AI and machine learning | <img src="assets/images/products/microsoft-foundry.svg" alt="Microsoft Foundry" width="18"/> [Microsoft Foundry](docs/ai/microsoft-foundry.md) · <img src="assets/images/products/azure-machine-learning.svg" alt="Azure Machine Learning" width="18"/> [Azure Machine Learning](docs/ai/azure-machine-learning.md) · <img src="assets/images/products/azure-ai.svg" alt="Azure AI" width="18"/> [Azure AI](docs/ai/azure-ai.md) · [Foundry Tools](docs/ai/foundry-tools.md) · [MLOps](docs/ai/mlops.md) |
+| Azure | <img src="assets/images/products/azure.svg" alt="Azure" width="18"/> [Azure](docs/azure/azure.md) · <img src="assets/images/products/azure-cosmos-db.svg" alt="Azure Cosmos DB" width="18"/> [Azure Cosmos DB](docs/azure/cosmos-db.md) |
+| Developer | <img src="assets/images/products/dotnet.svg" alt=".NET" width="18"/> [.NET](docs/developer/dotnet.md) · <img src="assets/images/products/azure-devops.svg" alt="Azure DevOps" width="18"/> [Azure DevOps](docs/developer/devops.md) · <img src="assets/images/products/github.svg" alt="GitHub" width="18" height="18"/> [GitHub](docs/developer/github.md) |
+| Microsoft 365 and Power Platform | <img src="assets/images/products/microsoft-365-copilot.svg" alt="Microsoft 365 Copilot" width="18" height="18"/> [Microsoft 365 Copilot development](docs/microsoft-365/copilot-dev.md) · <img src="assets/images/products/power-platform.svg" alt="Power Platform" width="18"/> [Power Platform](docs/microsoft-365/power-platform.md) · <img src="assets/images/products/ai-builder.svg" alt="AI Builder" width="18"/> [AI Builder](docs/ai/ai-builder.md) · <img src="assets/images/products/microsoft-entra.svg" alt="Microsoft Entra ID" width="18"/> [Microsoft Entra](docs/microsoft-365/security-compliance-identity.md) · <img src="assets/images/products/microsoft-viva.svg" alt="Viva Suite" width="18"/> [Viva](docs/microsoft-365/viva.md) |
+| Data and analytics | <img src="assets/images/products/microsoft-fabric.svg" alt="Microsoft Fabric" width="18"/> [Microsoft Fabric](docs/fabric/fabric.md) · <img src="assets/images/products/power-bi.svg" alt="Power BI" width="18"/> [Power BI](docs/fabric/powerbi.md) · <img src="assets/images/products/onelake.svg" alt="OneLake" width="18"/> [OneLake](docs/fabric/fabric.md) |
 
-## Part 1 - Azure
+## Maintenance
 
-[Microsoft Build: Cloud Development Challenge](Azure.md) - 36 Chapters
-
-  <img src="notes/regions-small-be724495.png" alt="-" width="400"/>
-
-## Part 2 - .NET
-
-[Microsoft Build: .NET Challenge](dotNET.md) - 33 Chapters
-
-  <img src="notes/dot-net.jpg" alt="-" width="400"/>
-
-## Part 3 - Azure AI
-
-[Microsoft Build: Azure AI Challenge](AzureAI.md) - 22 Chapters
-
-  <img src="notes/microsoft-ai-portfolio-graphic.png" alt="-" width="400"/>
-
-## Part 4 - Power Platform Developer
-
-[Microsoft Build: Power Platform Developer Challenge](PPF.md) - 22 Chapters
-
-  <img src="notes/platform.png" alt="-" width="400"/>
-
-## Part 5 - DevOps
-
-[Microsoft Build: DevOps Challenge](DevOps.md) - 51 Chapters
-
-  <img src="notes/azure-devops.png" alt="-" width="400"/>
-
-## Part 6 - Microsoft 365 Developer
-
-[Microsoft Build: Microsoft 365 Developer Challenge](M365dev.md) - 20 Chapters
-
-  <img src="notes/m365.png" alt="-" width="400"/>
-
-## Part 7 - Azure Cosmos DB Developer
-
-[Microsoft Build: Azure Cosmos DB Developer Challenge](Cosmos.md) - 30 Chapters
-
-## Part 8 - Developer Tools
-
-[Microsoft Build: Developer Tools Challenge](DevTool.md) - 24 Chapters
-
-# <strong>Microsoft Learn AI Skills Challenge 2023</strong>
-
-  <img src="notes/ai-portfolio.png" alt="-" width="400"/>
-
-## Part 1 - Machine Learning
-
-[Machine Learning](./AIChallenge/MachineLearning.md) - 13 Chapters
-
-## Part 2 - Cognitive Services
-
-[Cognitive Services](./AIChallenge/CognitiveServices.md) - 19 Chapters
-
-## Part 3 - Machine Learning Operations (MLOps)
-
-[Machine Learning Operations (MLOps)](./AIChallenge/MLOps.md) - 15 Chapters
-
-## Part 4 - AI Builder
-
-[AI Builder](./AIChallenge/AIBuilder.md) - 18 Chapters
-
-# <strong>Microsoft Learn: Notes</strong>
-
-## Part 1 - Security, Compliance, and Identity
-
-[Microsoft Security, Compliance, and Identity Fundamentals](Security.md)
-
-  <img src="notes/Inspire-SCI-1024x576.jpg" alt="-" width="400"/>
-
-## Part 2 - Viva Suite
-
-[Viva Suite](Viva.md)
-
-  <img src="notes/four-experience-areas.png" alt="-" width="400"/>
-
-## Part 3 - Power BI
-
-[Power BI](PowerBI.md)
-
-  <img src="notes/pbi-components.png" alt="-" width="400"/>
-
-The image @cite: [k21academy](https://k21academy.com/microsoft-azure/data-analyst/what-is-power-bi/)
+- [`archived/2023/`](archived/2023/) contains the original notes generated for the **Microsoft Build Challenge 2023**. Its [archived source index](archived/2023/README.md) preserves the original challenge structure, chapter counts, and historical terminology; it isn't the source for current implementation guidance.
+- Verify product names, lifecycle dates, API and SDK guidance, and service availability against [Microsoft Learn](https://learn.microsoft.com/) before updating a note.
+- Use the reusable [Microsoft Learn documentation workflow](.github/prompts/mslearn.plan-research.prompt.md) for plan, audit, research, implementation, and validation work.
